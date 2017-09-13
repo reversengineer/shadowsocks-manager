@@ -1,0 +1,39 @@
+<div layout="column" layout-align="center center">
+    <div layout="column" layout-align="center center" style="background-color: #FFFFFF; width: 100%;">
+        <img src="/libs/home.png" style="margin: 5vw; width: 300px;"></img>
+    </div>
+    <div layout="row" layout-align="space-around center" style="background-color: #FFFFFF; width: 100%;">
+        <md-button hide-gt-sm ng-click="login()">
+            {{ '登录' | translate }}
+        </md-button>
+        <md-button hide-gt-sm ng-click="signup()">
+            {{ '注册' | translate }}
+        </md-button>
+    </div>
+    <div layout="row" style="width: 90%; text-align:center; margin: 10px 10px 20px 20px;"></div>
+    <div layout="row" layout-xs="column" style="width:90%;text-align:center;margin:20 20 20 20">
+<!--
+        <div layout="column" layout-align="center center"
+            style="width: 90%; margin: 35px 15px 35px 15px;"
+            ng-repeat="icon in icons">
+            <div flex="5"></div>
+            <md-icon class="material-icons" md-colors="{ color: 'default-primary-500'}" style="font-size: 84px; height: 108px; position: relative; left: -32px;">
+                {{ icon.icon }}
+            </md-icon>
+            <h2>{{ icon.title | translate }}</h2>
+            <div>{{ icon.content | translate }}</div>
+            <div flex="5"></div>
+        </div>
+-->
+    </div>
+<div  style="width:90%; text-align:center;">
+<p><img src="/libs/welcome.png"></p>
+<p><h4>Welcome to the ChinaInternetAnswer.com Dashboard! From here, you can create a temporary demo account, or renew your account via AliPay or PayPal. To get started, click "Sign Up" to create an account!</h4></p>
+<p><h3>To change languages, please click the globe in the top-right corner of the screen.</h3></p>
+<p>---</p>
+<p><h4><b>欢迎来到ChinaInternetAnswer.com仪表板！ 从这里开始，您可以创建一个临时模拟帐户，或通过支付宝或PayPal续订您的账户。 要开始使用，请点击“注册”以创建一个帐户!</b></h4></p>
+<p><h3><b>要更改语言，请点击屏幕右上角的地球仪。</b></h3></p>
+
+</style>
+</div>
+</div>
